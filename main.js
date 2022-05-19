@@ -4,9 +4,10 @@
 // Aggiungere alla pagina un’immagine, presa anch’essa da un data.
 
 const app = new Vue({
-    el:`#app`,
+    el:"#app",
     data: {
-        message: `Hello Vue !`,
-        classe: `white`,
+        message: "Hello Vue !",
+        classe: "white",
+        immagine: "https://cdn.wallpapersafari.com/57/77/QbHj1T.jpg",
     }
 });
